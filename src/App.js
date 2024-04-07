@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import ClassRegistrationForm from './frontend/components/ClassRegistrationForm';
+import ExamPlanner from './frontend/components/ExamPlanner';
+import ExamForm from './frontend/components/ExamForm';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Exam Planner App</h1>
+        <nav>
+          <ul>
+            <li><a href="#register">Register Class</a></li>
+            <li><a href="#add-exam">Add Exam</a></li>
+            <li><a href="#view-planner">View Planner</a></li>
+          </ul>
+        </nav>
       </header>
+      <main>
+        <section id="register">
+          <ClassRegistrationForm />
+        </section>
+        <section id="add-exam">
+          <ExamForm />
+        </section>
+        <section id="view-planner">
+          <ExamPlanner />
+        </section>
+      </main>
     </div>
   );
 }
