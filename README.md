@@ -121,8 +121,8 @@ Leider hat der Prüfungskalender-Prototyp die meisten Tests nicht bestanden. Die
 Positiv hervorzuheben ist die gute Usability der Oberfläche und die schnelle Umsetzung. (gemacht in 2 Halbtagen)
 
 Es gibt also noch viel zu tun:
-    - Alle wichtigen Funktionen müssen eingebaut und fehlerfrei gemacht werden.
-    - Die Sicherheit der Schülerdaten muss gewährleistet sein.
-    - Das System muss auf verschiedenen Geräten und Browsern funktionieren.
+- Alle wichtigen Funktionen müssen eingebaut und fehlerfrei gemacht werden.
+- Die Sicherheit der Schülerdaten muss gewährleistet sein.
+- Das System muss auf verschiedenen Geräten und Browsern funktionieren.
 
 Ob Anpassungen reichen, ist fraglich. Es könnte sein, dass der Prototyp komplett neu entwickelt werden muss. Wichtig ist, dass die Probleme schnell und gründlich gelöst werden.
