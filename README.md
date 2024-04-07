@@ -1,9 +1,9 @@
 ## Administratives
-Version 0.0.5
+Version 0.1.0
 
 Autorin: Andrea Niklaus
 
-Datum: 06.04.2024
+Datum: 07.04.2024
 
 ## Inhaltsverzeichnis
 
@@ -98,10 +98,31 @@ Der Prototyp wird in einer lokalen Entwicklungsumgebung auf einem Windows-PC mit
 ## Testprotokoll
 | Nummer | Anforderungsnummer | Resulat | Tester |
 | --- | --- | --- | ---
+1 | 1 | NOK | Niklaus
+2 | 2 | NOK | Niklaus
+3 | 3 | OK | Niklaus
+4 | 4 | OK | Niklaus
+5 | 5 | NOK | Niklaus
+6 | 6 | NOK | Niklaus
+7 | 7 | NOK | Niklaus
+8 | 8 | NOK | Niklaus
+9 | 9 | OK | Niklaus
+10 | 10 | NOK | Niklaus
+11 | 11 | OK | Niklaus
+12 | 12 | OK | Niklaus
+13 | 13 | NOK | Niklaus
+
 
 ## Resultat
 Die Umsetzung des Prototyps erfolgte mithilfe von React.js und entsprechenden Komponenten für die Funktionalitäten des Prüfungskalenders. Den Code ist hier auf Github abgelegt.
 
 ## Fazit und Reflexion
-Der Prototyp wurde erfolgreich umgesetzt und erfüllt die grundlegenden Anforderungen für den Prüfungskalender. Die gewählte Vorgehensweise des vertikalen Prototypings ermöglichte es, einen funktionalen Ausschnitt des Systems zu implementieren und dabei die wichtigsten Funktionen zu demonstrieren. Der Einsatz von React.js ermöglichte eine effiziente Entwicklung und eine benutzerfreundliche Benutzeroberfläche. In Zukunft könnten weitere Funktionen hinzugefügt und das System auf Basis des Feedbacks der Nutzer weiterentwickelt werden. 
-Die Lösung lässt sich mit Anpassung umsetzen.
+Leider hat der Prüfungskalender-Prototyp die meisten Tests nicht bestanden. Die Kernfunktionen wie Terminplanung, Lernzielsetzung und Erinnerung fehlen oder sind fehlerhaft. Die Benutzeroberfläche ist zwar gut, aber das System funktioniert schlichtweg nicht. Nur 30% der getesteten Funktionen haben den Test bestanden. Das bedeutet, dass Kernfunktionen des Systems nicht nutzbar sind.
+Positiv hervorzuheben ist die gute Usability der Oberfläche und die schnelle Umsetzung. (gemacht in 2 Halbtagen)
+
+Es gibt also noch viel zu tun:
+    - Alle wichtigen Funktionen müssen eingebaut und fehlerfrei gemacht werden.
+    - Die Sicherheit der Schülerdaten muss gewährleistet sein.
+    - Das System muss auf verschiedenen Geräten und Browsern funktionieren.
+
+Ob Anpassungen reichen, ist fraglich. Es könnte sein, dass der Prototyp komplett neu entwickelt werden muss. Wichtig ist, dass die Probleme schnell und gründlich gelöst werden.
